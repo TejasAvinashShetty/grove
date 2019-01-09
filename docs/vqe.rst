@@ -38,7 +38,7 @@ function is passed into ``vqe_run`` as the ``variational_state_evolve`` argument
 are in the `source documentation <./vqe/vqe_source.html#grove.pyvqe.vqe.VQE.vqe_run>`_.
 
 Measurements are then performed on these states based on a Pauli operator decomposition of
-:math:`H`. Using Quil, these measurements will end up in classical memory. Doing
+:math:`H`. Using Quil(Quantum Instruction Language), these measurements will end up in classical memory. Doing
 this iteratively followed by a small amount of postprocessing, one may compute a real
 expectation value for the classical optimizer to use.
 
